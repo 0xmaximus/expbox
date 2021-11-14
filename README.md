@@ -11,6 +11,10 @@ expbox is an exploit code collection repository
 <= Exchange 2016 update 22
 <= Exchange 2019 update 11
 ```
+[CVE-2021–3945 Django-helpdesk stored XSS PoC](https://github.com/0x0021h/expbox/blob/main/cve-2021%E2%80%933945-poc.txt)
+```
+<= 0.3.0
+```
 
 ### Note
 
