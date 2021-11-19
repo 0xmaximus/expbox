@@ -16,6 +16,12 @@ expbox is an exploit code collection repository
 <= 0.3.0
 ```
 
+[CVE-2021-37580 Apache ShenYu 2.3.0/2.4.0 authentication bypass](https://github.com/0x0021h/expbox/blob/main/cve-2021-37580-poc.py)
+```
+Ref: https://github.com/fengwenhua/CVE-2021-37580
+```
+
+
 ### Note
 
 All content comes from the Internet, if there is a copyright problem, please contact me to delete.
