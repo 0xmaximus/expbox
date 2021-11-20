@@ -22,6 +22,11 @@ Ref: https://github.com/fengwenhua/CVE-2021-37580
 ```
 
 
+[Hadoop Yarn RPC RCE](https://github.com/0x0021h/expbox/blob/main/Hadoop%20Yarn%20RPC%20RCE.md)
+```
+Ref: https://github.com/cckuailong/YarnRpcRCE
+```
+
 ### Note
 
 All content comes from the Internet, if there is a copyright problem, please contact me to delete.
