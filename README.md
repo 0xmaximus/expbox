@@ -46,6 +46,11 @@ GET /api/geojson?url=file:/etc/passwd HTTP/1.1
 <= Exchange 2016 update 22
 <= Exchange 2019 update 11
 ```
+[Windows 0day](https://github.com/0x0021h/expbox/blob/main/InstallerFileTakeOver.exe)
+![image](https://user-images.githubusercontent.com/92664048/142796024-a46e8a46-90d1-42ed-8cf2-42127fb65da3.png)
+```
+Ref:https://github.com/klinix5/InstallerFileTakeOver
+```
 
 ### Note
 
