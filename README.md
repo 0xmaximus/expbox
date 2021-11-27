@@ -67,6 +67,11 @@ kubectl exec -it -n ingress-apisix apisix-dc9d99d76-vl5lh -- curl --path-as-is h
 
 Reference: https://haxx.in/posts/pwning-tipc/
 
+[Nginx 0.7.0 to 1.17.9 Host injection](https://github.com/0x0021h/expbox/blob/main/nginx%20%200.7.0%20to%201.17.9%20Host%20injection.md)
+```
+Ref: https://twitter.com/infosec_90/status/1464337963240861702
+```
+
 ### Note
 
 All content comes from the Internet, if there is a copyright problem, please contact me to delete.
