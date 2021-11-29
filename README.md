@@ -82,6 +82,15 @@ Ref: https://twitter.com/infosec_90/status/1464337963240861702
 Gerapy <= 0.9.6
 ```
 
+**[CVE-2021-41653 TP-Link TL-WR840N remote command execution](https://github.com/0x0021h/expbox/blob/main/CVE-2021-41653.py)**
+```
+TL-WR840N(EU)_V5_171211 / 0.9.1 3.16 v0001.0 Build 171211 Rel.58800n
+
+Fofa:
+
+app="TP_LINK-TL-WR840N"
+```
+Ref: https://github.com/ohnonoyesyes/CVE-2021-41653
 
 ### Note
 
