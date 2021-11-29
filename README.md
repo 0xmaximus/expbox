@@ -77,6 +77,12 @@ Reference: https://haxx.in/posts/pwning-tipc/
 Ref: https://twitter.com/infosec_90/status/1464337963240861702
 ```
 
+**[CVE-2021-32849 Gerapy clone background remote command execution](https://github.com/0x0021h/expbox/blob/main/CVE-2021-32849.txt)**
+```
+Gerapy <= 0.9.6
+```
+
+
 ### Note
 
 All content comes from the Internet, if there is a copyright problem, please contact me to delete.
