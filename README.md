@@ -92,6 +92,11 @@ app="TP_LINK-TL-WR840N"
 ```
 Ref: https://github.com/ohnonoyesyes/CVE-2021-41653
 
+[CVE-2021-41951 ResourceSpace reflective XSS](https://github.com/0x0021h/expbox/blob/main/CVE-2021-41951%20ResourceSpace%20reflective%20XSS.md)
+```
+<= 9.5
+```
+
 ### Note
 
 All content comes from the Internet, if there is a copyright problem, please contact me to delete.
