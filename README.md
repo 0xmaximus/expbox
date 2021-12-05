@@ -98,6 +98,10 @@ Ref: https://github.com/ohnonoyesyes/CVE-2021-41653
 <= 9.5
 ```
 
+**[sqlmap RCE](https://github.com/0x0021h/expbox/blob/main/sqlmap_rce.html)**
+![image](https://user-images.githubusercontent.com/92664048/144734569-957596a7-5c46-48ef-8eea-9b07b151b315.png)
+
+
 ### Note
 
 All content comes from the Internet, if there is a copyright problem, please contact me to delete.
