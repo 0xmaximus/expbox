@@ -7,7 +7,7 @@ if '.txt' in urlListPath:
 else:
     urlList = [urlListPath]
 for url in urlList:
-    url=url.strip()+"/Images/Remote?imageUrl=http://www.baidu.com"
+    url=url.strip()+"/Images/Remote?imageUrl=http://www.google.com"
     heads={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0",}
     try:
         req=requests.get(url,headers=heads)
