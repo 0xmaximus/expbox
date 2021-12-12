@@ -109,6 +109,17 @@ Jellyfin < 10.7.2
 Example:
 http://127.0.0.1:8096/Images/Remote?imageUrl=http://www.google.com
 ```
+**[](https://github.com/0x0021h/expbox/blob/main/CVE-2021-22205.py)**
+```
+11.9 <= Gitlab CE/EE < 13.8.8
+
+13.9 <= Gitlab CE/EE < 13.9.6
+
+13.10 <= Gitlab CE/EE < 13.10.3
+
+Ref:https://mp.weixin.qq.com/s/I60Q1guRcdIFMhXVeMnm6w
+```
+
 
 ### Note
 
