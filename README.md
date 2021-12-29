@@ -120,6 +120,13 @@ http://127.0.0.1:8096/Images/Remote?imageUrl=http://www.google.com
 Ref:https://mp.weixin.qq.com/s/I60Q1guRcdIFMhXVeMnm6w
 ```
 
+**[CVE-2021-45232 Apache APISIX Dashboard unauthorized access](https://github.com/0x0021h/expbox/blob/main/cve-2021-45232.py)**
+```
+Apache APISIX Dashboard < 2.10.1
+
+Ref: shorturl.at/bgwBN
+```
+
 
 ### Note
 
